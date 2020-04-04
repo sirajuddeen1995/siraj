@@ -1,0 +1,42 @@
+<script>
+var library = [
+{
+ title : "javascript",
+ price: 500,
+readers : [
+{
+name : "Person1",
+count : 300
+},
+{
+name : "Person2",
+count : 400
+}
+],
+authorDetails : 
+{
+ name : "Raj",
+  age : 50
+}
+
+},
+
+{
+title : "Node js",
+price : 600,
+readers :[],
+authorDetails : {
+    name :"Raj",
+    age : 40
+}
+}
+]
+// price of javascript book
+ console.log(library[0].price) 
+// Node js Author
+console.log(library[0].authorDetails.name)
+// Number of readers in Javascript 
+console.log(library[0].readers.length)
+// count value of person 2 in console
+console.log(library[0].readers[1].count)
+</script>
