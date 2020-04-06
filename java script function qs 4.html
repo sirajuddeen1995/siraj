@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>function</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var firstNum = Number(prompt("Enter the first number:"))
+    function ranNum()
+    {
+        var b = Math.floor(Math.random() *11)
+        return b;
+    }
+    var secondNum = ranNum()
+    function sum(firstNum, secondNum)
+    {
+        var add = firstNum + secondNum
+        return add;
+    }
+    result = sum(firstNum,secondNum)
+    console.log("The sum of "+firstNum+" and "+secondNum+ " is: "+result)
+    </script>
+</body>
+</html>
